@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Members from './components/Members';
 import MembersForm from './components/MembersForm';
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <h1>Build Your Team</h1>
+      <Members members={members} />
       <MembersForm addNewMember={addNewMember} />
     </div>
   );
