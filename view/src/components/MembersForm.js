@@ -14,7 +14,8 @@ const MembersForm = props => {
     };
 
     return ( 
-        <div>
+        <div className='container'>
+            <h3>Add New Members Here: </h3>
         <form onSubmit={handleSubmit}>
             <label htmlFor='name'>
                 Name: 
@@ -46,7 +47,7 @@ const MembersForm = props => {
                   value={member.role} 
                 />
             </label>
-            <button type='submit'>Submit</button>
+            <button type='submit' className='btn'>Submit</button>
         </form>
     </div>
      );

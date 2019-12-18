@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Build Your Team</h1>
+      <h1>Build Your Team!</h1>
       <Members members={members} />
       <MembersForm addNewMember={addNewMember} />
     </div>
